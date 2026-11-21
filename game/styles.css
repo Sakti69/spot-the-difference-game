@@ -1,0 +1,38 @@
+html, body {
+  margin: 0;
+  min-height: 100%;
+  background: #171310;
+  color: #f2ead8;
+  font-family: Georgia, 'Times New Roman', serif;
+}
+
+main {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 12px;
+}
+
+#game {
+  display: block;
+  width: 100%;
+  height: auto;
+  touch-action: none;
+  cursor: crosshair;
+  border-radius: 8px;
+}
+
+#status {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+#help {
+  text-align: center;
+  color: #cbb98f;
+  font-size: 15px;
+  margin: 10px 0 0;
+}
